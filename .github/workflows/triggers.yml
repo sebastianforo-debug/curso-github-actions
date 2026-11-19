@@ -1,0 +1,23 @@
+name: Practicando Triggers
+
+on:
+  push:
+    branches:
+      - aprendiendo-github-actions
+
+  pull_request:
+    branches:
+      - main
+
+  workflow_dispatch:
+
+  schedule:
+    - cron: '0 12 * * 1'
+    
+jobs:
+  explorar-triggers:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Mostrar trigger ejecutado
+        run: echo "¡Mi workflow se ha ejecutado correctamente!"
