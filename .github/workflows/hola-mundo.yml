@@ -1,5 +1,5 @@
 
-name: hola-mundo
+name: hola-mundo,yml
 
 on: [push]
 
