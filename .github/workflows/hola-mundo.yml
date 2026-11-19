@@ -1,5 +1,5 @@
 
-name: Test GitHub Actions
+name: hola-mundo
 
 on: [push]
 
